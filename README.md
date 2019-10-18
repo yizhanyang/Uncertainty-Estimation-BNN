@@ -11,3 +11,6 @@
 Dropout: weight = 0,   
 Probability = drop w/ total w,  
 Open drop out during prediction.
+## Result
+![e2](https://github.com/yizhanyang/Uncertainty-Estimation-BNN/blob/master/e2.jpg) 
+Deviation between confidence and hit probabilty = 0.1656
