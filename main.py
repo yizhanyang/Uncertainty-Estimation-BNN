@@ -70,5 +70,5 @@ plt.ylabel("Probability")
 plt.savefig("mcdropout.eps", format="eps", dpi=1000)
 area1 = trapz(confidence, dx = 0.05)
 area2 = trapz(hit_ratio, dx = 0.05)
-print("the area between two lines is = ", area1 - area2)
+print("Deviation = ", area1 - area2)
 
