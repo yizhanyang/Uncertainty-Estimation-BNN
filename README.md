@@ -7,7 +7,8 @@
   
 `Aleatoric uncertainty`: captures noise inherent in the observations. (e.g, in the example above, probably not dangerous if they are not hungry).  
 ## Method
-`MC Dropout`:  Don’t change structure of NN,   
+`MC Dropout`: [Original Paper: Dropout as a Bayesian Approximation](https://arxiv.org/abs/1506.02142)  
+Don’t change structure of NN,   
 Dropout: weight = 0,   
 Probability = drop w/ total w,  
 Open drop out during prediction,
