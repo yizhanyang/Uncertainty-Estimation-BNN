@@ -62,9 +62,9 @@ def hit_probability(y_test, mean, epistemic_uncertainty, confidence):
 
 confidence = np.linspace(0, 1.0, 21, endpoint = True)
 #print(confidence)
-plt.plot(confidence, confidence, '-*')
+plt.plot(confidence, confidence, color = 'g')
 hit_ratio = [hit_probability(y_test, mean, epistemic_uncertainty, c) for c in confidence]
-plt.plot(confidence, hit_ratio)
+plt.plot(confidence, hit_ratio, color = 'y')
 plt.xlabel("Confidence")
 plt.ylabel("Probability")
 plt.savefig("mcdropout.eps", format="eps", dpi=1000)
