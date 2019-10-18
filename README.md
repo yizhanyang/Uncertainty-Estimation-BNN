@@ -10,4 +10,4 @@
 `MC Dropout`:  Don’t change structure of NN,   
 Dropout: weight = 0,   
 Probability = drop w/ total w,  
-Open drop out during prediction
+Open drop out during prediction.
