@@ -11,5 +11,5 @@
 Dropout: weight = 0,   
 Probability = drop w/ total w,  
 Open drop out during prediction,  
-Deviation between confidence and hit probabilty = 0.1656。  
+Deviation between confidence and hit probabilty = 0.1656.  
 [Original Paper: Dropout as a Bayesian Approximation](https://arxiv.org/abs/1506.02142) 
