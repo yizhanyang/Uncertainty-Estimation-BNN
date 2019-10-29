@@ -1,4 +1,5 @@
 # Uncertainty-Estimation-BNN
+[Original Paper: Dropout as a Bayesian Approximation](https://arxiv.org/abs/1506.02142) 
 ## The Data
 [California Housing Prices](https://www.kaggle.com/camnugent/california-housing-prices)  
 ## Types of Uncertainty
@@ -12,5 +13,4 @@
 * Set weight = 0 when drop out  
 * Probability = drop weight/ total weight  
 * Open drop out during prediction  
-[Original Paper: Dropout as a Bayesian Approximation](https://arxiv.org/abs/1506.02142) 
 * Result: Deviation between confidence and hit probabilty = 0.1656  
